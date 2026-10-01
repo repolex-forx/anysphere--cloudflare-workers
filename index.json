@@ -1,0 +1,11 @@
+{
+  "org": "anysphere",
+  "repo": "cloudflare-workers",
+  "versions": [
+    {
+      "commit": "393c4c95467ae9932d16da3ee1b9a8cf141209a1",
+      "tag": "main",
+      "parsed_at": "2026-10-01T08:06:42.666287+00:00"
+    }
+  ]
+}
