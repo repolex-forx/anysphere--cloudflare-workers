@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/anysphere/cloudflare-workers/commit/393c4c95467ae9932d16da3ee1b9a8cf141209a1",
       "git:hexsha": "393c4c95467ae9932d16da3ee1b9a8cf141209a1",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     }
   ]
