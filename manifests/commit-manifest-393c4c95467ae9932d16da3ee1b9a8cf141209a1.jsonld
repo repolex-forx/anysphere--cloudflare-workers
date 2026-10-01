@@ -42,10 +42,44 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/393c4c95467ae9932d16da3ee1b9a8cf141209a1/chunk-001.nq.gz",
       "repolex:graphFileSize": 646563
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/393c4c95467ae9932d16da3ee1b9a8cf141209a1.nq.gz",
+      "repolex:graphFileSize": 66764
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-01T07:57:51.390426+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/cloudflare/containers",
+      "repolex:packageName": "@cloudflare/containers",
+      "git:hexsha": "298169f4aaba82e7b712458b7c6b14fc3e40ad78",
+      "git:tagName": "v0.3.7"
+    },
+    {
+      "@id": "https://repolex.ai/r/cloudflare/workerd",
+      "repolex:packageName": "@cloudflare/workers-types"
+    },
+    {
+      "@id": "https://repolex.ai/r/microsoft/TypeScript",
+      "repolex:packageName": "typescript",
+      "git:hexsha": "c63de15a992d37f0d6cec03ac7631872838602cb",
+      "git:tagName": "v5.9.3"
+    },
+    {
+      "@id": "https://repolex.ai/r/vitest-dev/vitest",
+      "repolex:packageName": "vitest",
+      "git:hexsha": "4150b913171bda3971a4a4c47c633c26d0c6ae45",
+      "git:tagName": "v4.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/cloudflare/workers-sdk",
+      "repolex:packageName": "wrangler"
+    }
+  ]
 }

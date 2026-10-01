@@ -31,6 +31,60 @@
       ],
       "ast": [
         "aggregate/ast/393c4c95467ae9932d16da3ee1b9a8cf141209a1/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/393c4c95467ae9932d16da3ee1b9a8cf141209a1.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "@cloudflare/containers",
+          "ecosystem": "NPM",
+          "version": "0.3.7",
+          "githubOrg": "cloudflare",
+          "githubRepo": "containers",
+          "githubCommit": "298169f4aaba82e7b712458b7c6b14fc3e40ad78",
+          "githubTag": "v0.3.7",
+          "githubUrl": "git+https://github.com/cloudflare/containers.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@cloudflare/workers-types",
+          "ecosystem": "NPM",
+          "version": "5.20260729.1",
+          "githubOrg": "cloudflare",
+          "githubRepo": "workerd",
+          "githubUrl": "git+https://github.com/cloudflare/workerd.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "typescript",
+          "ecosystem": "NPM",
+          "version": "5.9.3",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "githubCommit": "c63de15a992d37f0d6cec03ac7631872838602cb",
+          "githubTag": "v5.9.3",
+          "githubUrl": "git+https://github.com/microsoft/TypeScript.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "vitest",
+          "ecosystem": "NPM",
+          "version": "4.1.0",
+          "githubOrg": "vitest-dev",
+          "githubRepo": "vitest",
+          "githubCommit": "4150b913171bda3971a4a4c47c633c26d0c6ae45",
+          "githubTag": "v4.1.0",
+          "githubUrl": "git+https://github.com/vitest-dev/vitest.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "wrangler",
+          "ecosystem": "NPM",
+          "version": "4.115.0",
+          "githubOrg": "cloudflare",
+          "githubRepo": "workers-sdk",
+          "githubUrl": "git+https://github.com/cloudflare/workers-sdk.git",
+          "source": "build_file:package.json"
+        }
       ]
     }
   ],
