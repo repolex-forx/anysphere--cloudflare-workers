@@ -85,7 +85,9 @@
           "githubUrl": "git+https://github.com/cloudflare/workers-sdk.git",
           "source": "build_file:package.json"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/393c4c95467ae9932d16da3ee1b9a8cf141209a1/chunk-001.nq.gz",
+      "dep": "dep/393c4c95467ae9932d16da3ee1b9a8cf141209a1.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
